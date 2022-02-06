@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Balloon Popped</title>
+	<link rel="stylesheet" href="./css/styles.css">
+<head>
+<body>
+
+ 	<div class="score-block">
+ 		<p>You popped <span class="score">0</span> Balloons</p>
+ 	</div>
+
+ 	<div class="total-shadow">
+ 		<div class="total-block">
+ 			<div class="total-wrapper win">
+ 				<h4>Congragulations!</h4>
+ 				<img src="images/happy.png" alt="winner">
+ 				<h4>You popped all 10 Balloons.</h4>
+ 				<p>You are a Champion!</p>
+ 			</div>
+ 			<div class="total-wrapper lose">
+ 				<h4>Sorry!</h4>
+ 				<img src="images/sad.png" alt="loser">
+ 				<h4>You popped <span class="score">0</span> Balloons.</h4>
+ 				<p>Play Again?</p>
+ 				<button class="restart">Yes</button>
+ 				<button class="cancel">No</button>
+ 			</div>
+ 		</div> 
+ 	</div>
+
+ 	<div class="start-game-window">
+ 		<button class="startGame">Start Game</button>
+ 	</div>
+ 	<audio src="sounds/bg-music.mp3" class="bg-audio"></audio>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
